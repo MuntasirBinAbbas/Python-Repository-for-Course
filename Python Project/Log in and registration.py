@@ -19,7 +19,7 @@ def login():
     username = input("Enter your set username: ")
     password = input("Enter your set password: ")
     if users.get(username) == password:
-        print("Login successful!!\n2Welcome,", username)
+        print("Login successful!!\nWelcome,", username)
     else:
         print("Invalid username or password.")
 #User interface
